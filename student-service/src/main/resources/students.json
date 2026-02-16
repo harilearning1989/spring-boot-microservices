@@ -1,0 +1,902 @@
+[
+  {
+    "name": "Student 1",
+    "telugu": 34,
+    "english": 23,
+    "hindi": 23,
+    "maths": 36,
+    "science": 43,
+    "social": 65
+  },
+  {
+    "name": "Student 2",
+    "telugu": 76,
+    "english": 65,
+    "hindi": 79,
+    "maths": 65,
+    "science": 75,
+    "social": 23
+  },
+  {
+    "name": "Student 3",
+    "telugu": 30,
+    "english": 52,
+    "hindi": 75,
+    "maths": 31,
+    "science": 56,
+    "social": 28
+  },
+  {
+    "name": "Student 4",
+    "telugu": 80,
+    "english": 29,
+    "hindi": 50,
+    "maths": 99,
+    "science": 83,
+    "social": 40
+  },
+  {
+    "name": "Student 5",
+    "telugu": 61,
+    "english": 63,
+    "hindi": 52,
+    "maths": 82,
+    "science": 99,
+    "social": 48
+  },
+  {
+    "name": "Student 6",
+    "telugu": 83,
+    "english": 87,
+    "hindi": 28,
+    "maths": 74,
+    "science": 98,
+    "social": 94
+  },
+  {
+    "name": "Student 7",
+    "telugu": 86,
+    "english": 77,
+    "hindi": 70,
+    "maths": 48,
+    "science": 76,
+    "social": 31
+  },
+  {
+    "name": "Student 8",
+    "telugu": 82,
+    "english": 26,
+    "hindi": 14,
+    "maths": 75,
+    "science": 20,
+    "social": 84
+  },
+  {
+    "name": "Student 9",
+    "telugu": 74,
+    "english": 31,
+    "hindi": 100,
+    "maths": 66,
+    "science": 36,
+    "social": 88
+  },
+  {
+    "name": "Student 10",
+    "telugu": 35,
+    "english": 23,
+    "hindi": 76,
+    "maths": 85,
+    "science": 74,
+    "social": 95
+  },
+  {
+    "name": "Student 11",
+    "telugu": 72,
+    "english": 49,
+    "hindi": 76,
+    "maths": 96,
+    "science": 88,
+    "social": 25
+  },
+  {
+    "name": "Student 12",
+    "telugu": 100,
+    "english": 25,
+    "hindi": 16,
+    "maths": 93,
+    "science": 28,
+    "social": 22
+  },
+  {
+    "name": "Student 13",
+    "telugu": 30,
+    "english": 85,
+    "hindi": 61,
+    "maths": 40,
+    "science": 45,
+    "social": 54
+  },
+  {
+    "name": "Student 14",
+    "telugu": 24,
+    "english": 48,
+    "hindi": 40,
+    "maths": 96,
+    "science": 97,
+    "social": 98
+  },
+  {
+    "name": "Student 15",
+    "telugu": 27,
+    "english": 39,
+    "hindi": 38,
+    "maths": 88,
+    "science": 77,
+    "social": 94
+  },
+  {
+    "name": "Student 16",
+    "telugu": 54,
+    "english": 78,
+    "hindi": 43,
+    "maths": 34,
+    "science": 74,
+    "social": 50
+  },
+  {
+    "name": "Student 17",
+    "telugu": 46,
+    "english": 79,
+    "hindi": 65,
+    "maths": 65,
+    "science": 49,
+    "social": 78
+  },
+  {
+    "name": "Student 18",
+    "telugu": 74,
+    "english": 77,
+    "hindi": 84,
+    "maths": 80,
+    "science": 27,
+    "social": 67
+  },
+  {
+    "name": "Student 19",
+    "telugu": 89,
+    "english": 95,
+    "hindi": 43,
+    "maths": 64,
+    "science": 24,
+    "social": 54
+  },
+  {
+    "name": "Student 20",
+    "telugu": 83,
+    "english": 37,
+    "hindi": 92,
+    "maths": 55,
+    "science": 95,
+    "social": 55
+  },
+  {
+    "name": "Student 21",
+    "telugu": 43,
+    "english": 99,
+    "hindi": 16,
+    "maths": 84,
+    "science": 44,
+    "social": 58
+  },
+  {
+    "name": "Student 22",
+    "telugu": 79,
+    "english": 75,
+    "hindi": 98,
+    "maths": 97,
+    "science": 88,
+    "social": 29
+  },
+  {
+    "name": "Student 23",
+    "telugu": 59,
+    "english": 47,
+    "hindi": 25,
+    "maths": 46,
+    "science": 49,
+    "social": 23
+  },
+  {
+    "name": "Student 24",
+    "telugu": 72,
+    "english": 33,
+    "hindi": 31,
+    "maths": 41,
+    "science": 71,
+    "social": 69
+  },
+  {
+    "name": "Student 25",
+    "telugu": 84,
+    "english": 91,
+    "hindi": 89,
+    "maths": 55,
+    "science": 89,
+    "social": 82
+  },
+  {
+    "name": "Student 26",
+    "telugu": 70,
+    "english": 43,
+    "hindi": 85,
+    "maths": 87,
+    "science": 65,
+    "social": 28
+  },
+  {
+    "name": "Student 27",
+    "telugu": 96,
+    "english": 90,
+    "hindi": 75,
+    "maths": 21,
+    "science": 20,
+    "social": 25
+  },
+  {
+    "name": "Student 28",
+    "telugu": 31,
+    "english": 68,
+    "hindi": 38,
+    "maths": 71,
+    "science": 34,
+    "social": 40
+  },
+  {
+    "name": "Student 29",
+    "telugu": 50,
+    "english": 60,
+    "hindi": 98,
+    "maths": 25,
+    "science": 61,
+    "social": 62
+  },
+  {
+    "name": "Student 30",
+    "telugu": 69,
+    "english": 62,
+    "hindi": 69,
+    "maths": 79,
+    "science": 73,
+    "social": 55
+  },
+  {
+    "name": "Student 31",
+    "telugu": 78,
+    "english": 46,
+    "hindi": 35,
+    "maths": 75,
+    "science": 37,
+    "social": 47
+  },
+  {
+    "name": "Student 32",
+    "telugu": 75,
+    "english": 67,
+    "hindi": 99,
+    "maths": 66,
+    "science": 64,
+    "social": 80
+  },
+  {
+    "name": "Student 33",
+    "telugu": 68,
+    "english": 52,
+    "hindi": 62,
+    "maths": 66,
+    "science": 71,
+    "social": 66
+  },
+  {
+    "name": "Student 34",
+    "telugu": 25,
+    "english": 47,
+    "hindi": 13,
+    "maths": 89,
+    "science": 95,
+    "social": 65
+  },
+  {
+    "name": "Student 35",
+    "telugu": 34,
+    "english": 67,
+    "hindi": 66,
+    "maths": 61,
+    "science": 20,
+    "social": 88
+  },
+  {
+    "name": "Student 36",
+    "telugu": 73,
+    "english": 48,
+    "hindi": 32,
+    "maths": 80,
+    "science": 53,
+    "social": 54
+  },
+  {
+    "name": "Student 37",
+    "telugu": 87,
+    "english": 69,
+    "hindi": 68,
+    "maths": 23,
+    "science": 51,
+    "social": 21
+  },
+  {
+    "name": "Student 38",
+    "telugu": 31,
+    "english": 45,
+    "hindi": 84,
+    "maths": 90,
+    "science": 79,
+    "social": 71
+  },
+  {
+    "name": "Student 39",
+    "telugu": 53,
+    "english": 80,
+    "hindi": 64,
+    "maths": 62,
+    "science": 66,
+    "social": 24
+  },
+  {
+    "name": "Student 40",
+    "telugu": 87,
+    "english": 49,
+    "hindi": 66,
+    "maths": 92,
+    "science": 58,
+    "social": 40
+  },
+  {
+    "name": "Student 41",
+    "telugu": 78,
+    "english": 41,
+    "hindi": 52,
+    "maths": 94,
+    "science": 88,
+    "social": 57
+  },
+  {
+    "name": "Student 42",
+    "telugu": 78,
+    "english": 53,
+    "hindi": 26,
+    "maths": 35,
+    "science": 25,
+    "social": 61
+  },
+  {
+    "name": "Student 43",
+    "telugu": 62,
+    "english": 99,
+    "hindi": 31,
+    "maths": 68,
+    "science": 85,
+    "social": 77
+  },
+  {
+    "name": "Student 44",
+    "telugu": 75,
+    "english": 86,
+    "hindi": 14,
+    "maths": 87,
+    "science": 49,
+    "social": 31
+  },
+  {
+    "name": "Student 45",
+    "telugu": 21,
+    "english": 92,
+    "hindi": 39,
+    "maths": 72,
+    "science": 38,
+    "social": 20
+  },
+  {
+    "name": "Student 46",
+    "telugu": 23,
+    "english": 54,
+    "hindi": 45,
+    "maths": 46,
+    "science": 90,
+    "social": 65
+  },
+  {
+    "name": "Student 47",
+    "telugu": 31,
+    "english": 32,
+    "hindi": 94,
+    "maths": 74,
+    "science": 45,
+    "social": 29
+  },
+  {
+    "name": "Student 48",
+    "telugu": 57,
+    "english": 21,
+    "hindi": 100,
+    "maths": 64,
+    "science": 27,
+    "social": 62
+  },
+  {
+    "name": "Student 49",
+    "telugu": 49,
+    "english": 96,
+    "hindi": 30,
+    "maths": 51,
+    "science": 54,
+    "social": 78
+  },
+  {
+    "name": "Student 50",
+    "telugu": 67,
+    "english": 72,
+    "hindi": 59,
+    "maths": 97,
+    "science": 46,
+    "social": 27
+  },
+  {
+    "name": "Student 51",
+    "telugu": 79,
+    "english": 93,
+    "hindi": 53,
+    "maths": 76,
+    "science": 69,
+    "social": 20
+  },
+  {
+    "name": "Student 52",
+    "telugu": 83,
+    "english": 65,
+    "hindi": 93,
+    "maths": 93,
+    "science": 25,
+    "social": 64
+  },
+  {
+    "name": "Student 53",
+    "telugu": 45,
+    "english": 90,
+    "hindi": 23,
+    "maths": 44,
+    "science": 74,
+    "social": 74
+  },
+  {
+    "name": "Student 54",
+    "telugu": 81,
+    "english": 60,
+    "hindi": 65,
+    "maths": 39,
+    "science": 78,
+    "social": 52
+  },
+  {
+    "name": "Student 55",
+    "telugu": 37,
+    "english": 34,
+    "hindi": 38,
+    "maths": 56,
+    "science": 69,
+    "social": 81
+  },
+  {
+    "name": "Student 56",
+    "telugu": 32,
+    "english": 58,
+    "hindi": 72,
+    "maths": 53,
+    "science": 41,
+    "social": 76
+  },
+  {
+    "name": "Student 57",
+    "telugu": 53,
+    "english": 94,
+    "hindi": 60,
+    "maths": 51,
+    "science": 61,
+    "social": 55
+  },
+  {
+    "name": "Student 58",
+    "telugu": 23,
+    "english": 58,
+    "hindi": 72,
+    "maths": 37,
+    "science": 60,
+    "social": 70
+  },
+  {
+    "name": "Student 59",
+    "telugu": 63,
+    "english": 68,
+    "hindi": 88,
+    "maths": 94,
+    "science": 23,
+    "social": 99
+  },
+  {
+    "name": "Student 60",
+    "telugu": 55,
+    "english": 65,
+    "hindi": 30,
+    "maths": 37,
+    "science": 65,
+    "social": 36
+  },
+  {
+    "name": "Student 61",
+    "telugu": 59,
+    "english": 89,
+    "hindi": 23,
+    "maths": 76,
+    "science": 54,
+    "social": 100
+  },
+  {
+    "name": "Student 62",
+    "telugu": 88,
+    "english": 51,
+    "hindi": 19,
+    "maths": 59,
+    "science": 40,
+    "social": 64
+  },
+  {
+    "name": "Student 63",
+    "telugu": 35,
+    "english": 58,
+    "hindi": 20,
+    "maths": 78,
+    "science": 78,
+    "social": 82
+  },
+  {
+    "name": "Student 64",
+    "telugu": 78,
+    "english": 98,
+    "hindi": 69,
+    "maths": 22,
+    "science": 69,
+    "social": 42
+  },
+  {
+    "name": "Student 65",
+    "telugu": 98,
+    "english": 91,
+    "hindi": 97,
+    "maths": 58,
+    "science": 51,
+    "social": 28
+  },
+  {
+    "name": "Student 66",
+    "telugu": 97,
+    "english": 56,
+    "hindi": 68,
+    "maths": 69,
+    "science": 29,
+    "social": 96
+  },
+  {
+    "name": "Student 67",
+    "telugu": 85,
+    "english": 48,
+    "hindi": 49,
+    "maths": 78,
+    "science": 98,
+    "social": 80
+  },
+  {
+    "name": "Student 68",
+    "telugu": 83,
+    "english": 99,
+    "hindi": 51,
+    "maths": 93,
+    "science": 29,
+    "social": 49
+  },
+  {
+    "name": "Student 69",
+    "telugu": 59,
+    "english": 94,
+    "hindi": 89,
+    "maths": 47,
+    "science": 25,
+    "social": 60
+  },
+  {
+    "name": "Student 70",
+    "telugu": 88,
+    "english": 43,
+    "hindi": 84,
+    "maths": 56,
+    "science": 43,
+    "social": 46
+  },
+  {
+    "name": "Student 71",
+    "telugu": 26,
+    "english": 21,
+    "hindi": 19,
+    "maths": 38,
+    "science": 95,
+    "social": 54
+  },
+  {
+    "name": "Student 72",
+    "telugu": 96,
+    "english": 99,
+    "hindi": 86,
+    "maths": 32,
+    "science": 41,
+    "social": 70
+  },
+  {
+    "name": "Student 73",
+    "telugu": 39,
+    "english": 89,
+    "hindi": 93,
+    "maths": 61,
+    "science": 55,
+    "social": 36
+  },
+  {
+    "name": "Student 74",
+    "telugu": 76,
+    "english": 80,
+    "hindi": 76,
+    "maths": 26,
+    "science": 66,
+    "social": 86
+  },
+  {
+    "name": "Student 75",
+    "telugu": 83,
+    "english": 47,
+    "hindi": 51,
+    "maths": 21,
+    "science": 33,
+    "social": 68
+  },
+  {
+    "name": "Student 76",
+    "telugu": 58,
+    "english": 42,
+    "hindi": 22,
+    "maths": 87,
+    "science": 66,
+    "social": 61
+  },
+  {
+    "name": "Student 77",
+    "telugu": 57,
+    "english": 79,
+    "hindi": 99,
+    "maths": 43,
+    "science": 58,
+    "social": 79
+  },
+  {
+    "name": "Student 78",
+    "telugu": 78,
+    "english": 56,
+    "hindi": 79,
+    "maths": 29,
+    "science": 49,
+    "social": 78
+  },
+  {
+    "name": "Student 79",
+    "telugu": 74,
+    "english": 52,
+    "hindi": 15,
+    "maths": 46,
+    "science": 94,
+    "social": 80
+  },
+  {
+    "name": "Student 80",
+    "telugu": 97,
+    "english": 63,
+    "hindi": 16,
+    "maths": 98,
+    "science": 37,
+    "social": 97
+  },
+  {
+    "name": "Student 81",
+    "telugu": 56,
+    "english": 64,
+    "hindi": 96,
+    "maths": 83,
+    "science": 58,
+    "social": 48
+  },
+  {
+    "name": "Student 82",
+    "telugu": 58,
+    "english": 93,
+    "hindi": 35,
+    "maths": 40,
+    "science": 63,
+    "social": 29
+  },
+  {
+    "name": "Student 83",
+    "telugu": 52,
+    "english": 94,
+    "hindi": 28,
+    "maths": 71,
+    "science": 48,
+    "social": 76
+  },
+  {
+    "name": "Student 84",
+    "telugu": 48,
+    "english": 33,
+    "hindi": 19,
+    "maths": 82,
+    "science": 68,
+    "social": 53
+  },
+  {
+    "name": "Student 85",
+    "telugu": 88,
+    "english": 78,
+    "hindi": 80,
+    "maths": 43,
+    "science": 80,
+    "social": 57
+  },
+  {
+    "name": "Student 86",
+    "telugu": 61,
+    "english": 91,
+    "hindi": 11,
+    "maths": 24,
+    "science": 31,
+    "social": 84
+  },
+  {
+    "name": "Student 87",
+    "telugu": 43,
+    "english": 77,
+    "hindi": 37,
+    "maths": 77,
+    "science": 96,
+    "social": 45
+  },
+  {
+    "name": "Student 88",
+    "telugu": 59,
+    "english": 73,
+    "hindi": 85,
+    "maths": 88,
+    "science": 84,
+    "social": 72
+  },
+  {
+    "name": "Student 89",
+    "telugu": 98,
+    "english": 42,
+    "hindi": 83,
+    "maths": 21,
+    "science": 100,
+    "social": 99
+  },
+  {
+    "name": "Student 90",
+    "telugu": 65,
+    "english": 90,
+    "hindi": 16,
+    "maths": 48,
+    "science": 46,
+    "social": 21
+  },
+  {
+    "name": "Student 91",
+    "telugu": 91,
+    "english": 20,
+    "hindi": 91,
+    "maths": 77,
+    "science": 43,
+    "social": 48
+  },
+  {
+    "name": "Student 92",
+    "telugu": 83,
+    "english": 35,
+    "hindi": 97,
+    "maths": 31,
+    "science": 99,
+    "social": 76
+  },
+  {
+    "name": "Student 93",
+    "telugu": 47,
+    "english": 53,
+    "hindi": 90,
+    "maths": 100,
+    "science": 62,
+    "social": 85
+  },
+  {
+    "name": "Student 94",
+    "telugu": 58,
+    "english": 88,
+    "hindi": 14,
+    "maths": 83,
+    "science": 46,
+    "social": 100
+  },
+  {
+    "name": "Student 95",
+    "telugu": 41,
+    "english": 89,
+    "hindi": 98,
+    "maths": 30,
+    "science": 21,
+    "social": 41
+  },
+  {
+    "name": "Student 96",
+    "telugu": 48,
+    "english": 27,
+    "hindi": 100,
+    "maths": 63,
+    "science": 81,
+    "social": 89
+  },
+  {
+    "name": "Student 97",
+    "telugu": 82,
+    "english": 45,
+    "hindi": 84,
+    "maths": 97,
+    "science": 87,
+    "social": 40
+  },
+  {
+    "name": "Student 98",
+    "telugu": 54,
+    "english": 85,
+    "hindi": 56,
+    "maths": 99,
+    "science": 83,
+    "social": 32
+  },
+  {
+    "name": "Student 99",
+    "telugu": 56,
+    "english": 61,
+    "hindi": 93,
+    "maths": 57,
+    "science": 58,
+    "social": 99
+  },
+  {
+    "name": "Student 100",
+    "telugu": 61,
+    "english": 43,
+    "hindi": 49,
+    "maths": 40,
+    "science": 77,
+    "social": 75
+  }
+]

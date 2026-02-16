@@ -1,6 +1,5 @@
 package com.web.demo.config;
 
-import com.web.demo.filters.AuthenticationFilter;
 import org.springframework.cloud.gateway.filter.ratelimit.RedisRateLimiter;
 import org.springframework.cloud.gateway.route.RouteLocator;
 import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
@@ -14,16 +13,26 @@ public class GatewayRoutesConfig {
 
     @Bean
     public RouteLocator routes(RouteLocatorBuilder builder,
-                               AuthenticationFilter authFilter,
                                RedisRateLimiter rateLimiter) {
 
         return builder.routes()
-
+                // ================= CUSTOMER SERVICE =================
+                .route("customer-service", r -> r
+                        .path("/customers/**")
+                        .filters(f -> f
+                                .addRequestHeader("X-Gateway", "Customer-Service")
+                                .removeRequestHeader("Cookie")
+                                .requestRateLimiter(c -> c.setRateLimiter(rateLimiter))
+                                .circuitBreaker(c -> c
+                                        .setName("CustomerCB")
+                                        .setFallbackUri("forward:/fallback/customers"))
+                        )
+                        .uri("lb://CUSTOMER-SERVICE")
+                )
                 // ================= USER SERVICE =================
                 .route("user-service", r -> r
                         .path("/users/**")
                         .filters(f -> f
-                                .filter(authFilter)
                                 .addRequestHeader("X-Gateway", "User-Service")
                                 .removeRequestHeader("Cookie")
                                 .requestRateLimiter(c -> c.setRateLimiter(rateLimiter))
@@ -55,7 +64,6 @@ public class GatewayRoutesConfig {
                 .route("employee-service", r -> r
                         .path("/employee/**")
                         .filters(f -> f
-                                .filter(authFilter)
                                 .addRequestHeader("X-Gateway", "Employee-Service")
                                 .removeRequestHeader("Cookie")
                                 .requestRateLimiter(c -> c.setRateLimiter(rateLimiter))
@@ -72,7 +80,6 @@ public class GatewayRoutesConfig {
                 .route("admin-service", r -> r
                         .path("/admin/**")
                         .filters(f -> f
-                                .filter(authFilter)
                                 .addRequestHeader("X-Gateway", "Admin-Service")
                                 .circuitBreaker(c -> c
                                         .setName("adminCB")
