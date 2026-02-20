@@ -1,6 +1,8 @@
 spring:
   application:
-    name: Gateway
+    name: gateway-service
+  main:
+    banner-mode: off
 
 server:
   port: 8081

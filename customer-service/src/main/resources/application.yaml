@@ -1,6 +1,8 @@
 spring:
   application:
     name: customer-service
+  main:
+    banner-mode: off
 
 server:
   port: 8082

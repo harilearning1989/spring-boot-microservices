@@ -16,11 +16,26 @@ public class GatewayRoutesConfig {
                                RedisRateLimiter rateLimiter) {
 
         return builder.routes()
+                // ================= LOGIN SERVICE =================
+                .route("login-service", r -> r
+                        .path("/auth/**")
+                        .filters(f -> f
+                                .addRequestHeader("X-Gateway", "Login-Service")
+                                .removeRequestHeader("Cookie")
+                                //.requestRateLimiter(c -> c.setRateLimiter(rateLimiter))
+                                .circuitBreaker(config -> config
+                                        .setName("loginServiceCircuitBreaker")
+                                        .setFallbackUri("forward:/fallback/auth")
+                                )
+                        )
+                        .uri("lb://LOGIN-SERVICE")
+                )
                 // ================= PRODUCT SERVICE =================
                 /*.route("product-service", r -> r
                         .path("/products/**")
                         .uri("lb://PRODUCT-SERVICE")
                 )*/
+
                 .route("product-service", r -> r
                         .path("/products/**")
                         .filters(f -> f

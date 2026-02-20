@@ -37,5 +37,12 @@ public class FallbackController {
                 .status(HttpStatus.SERVICE_UNAVAILABLE)
                 .body("Customer Service is currently unavailable. Please try again later.");
     }
+
+    @GetMapping("/fallback/auth")
+    public ResponseEntity<String> loginServiceFallback() {
+        return ResponseEntity
+                .status(HttpStatus.SERVICE_UNAVAILABLE)
+                .body("Login Service is currently unavailable. Please try again later.");
+    }
 }
 
