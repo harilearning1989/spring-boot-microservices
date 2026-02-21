@@ -9,8 +9,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ProblemDetail;
 import org.springframework.stereotype.Component;
 
+import javax.crypto.SecretKey;
 import java.net.URI;
-import java.security.Key;
 import java.time.Instant;
 import java.util.Date;
 
@@ -18,11 +18,10 @@ import java.util.Date;
 public class JwtUtil {
 
     private static final String SECRET =
-            "mysecretkeymysecretkeymysecretkey";
+            "mysecretkeymysecretkeymysecretkey12";
 
-    private Key getSigningKey() {
-        return Keys.hmacShaKeyFor(SECRET.getBytes());
-    }
+    private static final SecretKey SECRET_KEY =
+            Keys.hmacShaKeyFor(SECRET.getBytes());
 
     /*public Claims validateToken(String token) {
         return Jwts.parserBuilder()
@@ -35,11 +34,10 @@ public class JwtUtil {
     public Claims validateAndGetClaimsFromToken(String token) {
         try {
             return Jwts.parserBuilder()
-                    .setSigningKey(getSigningKey())
+                    .setSigningKey(SECRET_KEY)
                     .build()
                     .parseClaimsJws(token)
                     .getBody();
-
         } catch (ExpiredJwtException ex) {
             throw buildProblem(
                     "Token Expired",
@@ -47,7 +45,6 @@ public class JwtUtil {
                     HttpStatus.UNAUTHORIZED,
                     "/errors/token-expired"
             );
-
         } catch (MalformedJwtException ex) {
             throw buildProblem(
                     "Malformed Token",
@@ -55,7 +52,6 @@ public class JwtUtil {
                     HttpStatus.BAD_REQUEST,
                     "/errors/malformed-token"
             );
-
         } catch (SignatureException ex) {
             throw buildProblem(
                     "Invalid Signature",
@@ -63,7 +59,6 @@ public class JwtUtil {
                     HttpStatus.UNAUTHORIZED,
                     "/errors/invalid-signature"
             );
-
         } catch (UnsupportedJwtException ex) {
             throw buildProblem(
                     "Unsupported Token",
@@ -71,7 +66,6 @@ public class JwtUtil {
                     HttpStatus.BAD_REQUEST,
                     "/errors/unsupported-token"
             );
-
         } catch (WeakKeyException ex) {
             throw buildProblem(
                     "Weak Signing Key",
@@ -79,7 +73,6 @@ public class JwtUtil {
                     HttpStatus.INTERNAL_SERVER_ERROR,
                     "/errors/weak-key"
             );
-
         } catch (IllegalArgumentException ex) {
             throw buildProblem(
                     "Invalid Token",
